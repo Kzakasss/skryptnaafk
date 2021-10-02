@@ -12,6 +12,9 @@ Section:NewToggle("Autotrain", "Samo trenuje", function(state)
         getgenv().train = false
     end
 end)
+Section:NewKeybind("Wylacz pod X", "wylacz pod X", Enum.KeyCode.X, function()
+	Library:ToggleUI()
+end)
 
 
 
