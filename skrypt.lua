@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Super power fighting by lcomuniy", "BloodTheme")
+local Window = Library.CreateLib("Super power fighting by lcomuniy", "Midnight")
 local Tab = Window:NewTab("afczenie")
 local Section = Tab:NewSection("afk")
 Section:NewToggle("Autotrain", "Samo trenuje", function(state)
